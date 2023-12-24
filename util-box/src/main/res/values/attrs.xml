@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="base_bg" format="color"/>
+
+    <!--        字体颜色相关-->
+    <attr name="body_text_1" format="color"/>
+</resources>

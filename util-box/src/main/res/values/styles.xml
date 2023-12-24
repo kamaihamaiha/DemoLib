@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tv_send_style">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FullScreenDialogTheme">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowBackground">#66000000</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="FullScreenDialogTheme2">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+
+
+    <!--基本主题-->
+    <style name="Base.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--生效范围：Context Menu bg color 其他还不知道-->
+        <item name="android:itemBackground">?android:selectableItemBackground</item>
+        <item name="android:actionMenuTextColor">@color/teal</item>
+        <!--生效范围：Context Menu text color 其他还不知道-->
+        <item name="android:textColor">@color/teal</item>
+
+        <!--edge to edge 状态栏-->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Default" parent="Base.Theme">
+        <item name="body_text_1">@color/body_text_1</item>
+        <item name="base_bg">@color/white</item>
+
+    </style>
+
+    <style name="Theme.Night" parent="Base.Theme">
+        <item name="base_bg">@color/grey_3</item>
+        <item name="body_text_1">@color/body_text_1_n</item>
+
+    </style>
+
+    <style name="Theme.Black" parent="Base.Theme">
+        <item name="base_bg">@color/black</item>
+        <item name="body_text_1">@color/body_text_1_b</item>
+
+    </style>
+
+    <style name="SimpleBottomDialogTheme">
+        <item name="android:navigationBarColor">@color/red_1</item>
+    </style>
+
+
+    <style name="EdgeToEdgeDialogStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="enableEdgeToEdge">true</item>
+        <item name="paddingBottomSystemWindowInsets">true</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+
+</resources>
